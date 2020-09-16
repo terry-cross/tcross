@@ -1,2 +1,31 @@
-
+body {
+  background-color: bisque;
+  font-family: "Arial";
+}
 /*  Put your CSS Here */
+#container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header {
+  font-family: "Georgia";
+  background-color: #7777ff;
+  height: 45px;
+  text-align: justify;
+}
+#pictureInserts {
+  padding: 10px;
+}
+#main {
+  font-family: "Arial";
+}
+h1 {
+  color: white;
+}
+h2 {
+  font-family: "Georgia";
+}
+#listCareers {
+  text-align: left;
+}
