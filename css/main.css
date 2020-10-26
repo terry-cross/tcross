@@ -4,7 +4,8 @@ body {
 }
 /*  Put your CSS Here */
 #container {
-  width: 800px;
+  width: 900px;
+  padding: 25px 25px 25px 25px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,13 +13,14 @@ body {
   font-family: "Georgia";
   background-color: #7777ff;
   height: 45px;
-  text-align: justify;
+  text-align: left;
 }
 #pictureInserts {
   padding: 10px;
 }
 #main {
   font-family: "Arial";
+  font-size: 25px;
 }
 h1 {
   color: white;
@@ -27,5 +29,12 @@ h2 {
   font-family: "Georgia";
 }
 #listCareers {
-  text-align: left;
+  text-align: justify;
+}
+#listCareers ul {
+  list-style-type: none;
+}
+#footer {
+  position: relative;
+  bottom: 0;
 }
